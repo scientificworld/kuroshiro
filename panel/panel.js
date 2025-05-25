@@ -25,11 +25,11 @@ divs.forEach((e, i) => {
 	buttons[1].addEventListener("click", () => {
 		select.querySelectorAll("option:checked").forEach(el => el.remove());
 		browser.storage.local.set({
-			[e.id]: Array.from(select.querySelectorAll("option")).map(el => el.innerHTML)
+			[e.id]: Array.from(select.querySelectorAll("option")).map(el => el.textContent)
 		});
 	});
 
-	e.querySelector("h4").innerHTML = browser.i18n.getMessage(`${e.id.toLowerCase()}_header`);
+	e.querySelector("h4").textContent = browser.i18n.getMessage(`${e.id.toLowerCase()}_header`);
 
 	addEventListener("focus", () => renderOption(select));
 });

@@ -5,7 +5,7 @@ let currentTab;
 let buttons = document.querySelectorAll("button");
 
 buttons.forEach(e => {
-	e.innerHTML = browser.i18n.getMessage(e.id);
+	e.textContent = browser.i18n.getMessage(e.id);
 });
 
 buttons[0].addEventListener("click", async () => {
