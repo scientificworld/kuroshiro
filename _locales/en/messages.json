@@ -1,0 +1,17 @@
+{
+	"add_blist": {
+		"message": "Force current page to use dark theme"
+	},
+	"add_wlist": {
+		"message": "Force current page to use light theme"
+	},
+	"view_config": {
+		"message": "Open detailed config panel"
+	},
+	"blist_header": {
+		"message": "List of websites using dark theme"
+	},
+	"wlist_header": {
+		"message": "List of websites using light theme"
+	}
+}

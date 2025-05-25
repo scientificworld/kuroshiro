@@ -1,0 +1,17 @@
+{
+	"add_blist": {
+		"message": "强制当前页面使用暗色主题"
+	},
+	"add_wlist": {
+		"message": "强制当前页面使用亮色主题"
+	},
+	"view_config": {
+		"message": "打开详细设置面板"
+	},
+	"blist_header": {
+		"message": "使用暗色主题的网站列表"
+	},
+	"wlist_header": {
+		"message": "使用亮色主题的网站列表"
+	}
+}
